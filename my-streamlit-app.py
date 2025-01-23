@@ -8,5 +8,5 @@ audio = audiorecorder("Click to record", "Click to stop recording")
 if len(audio) > 0:
 
     
-    st.audio(audio.export().read()) 
+    st.audio(audio.export().read(), autoplay=True) 
     
